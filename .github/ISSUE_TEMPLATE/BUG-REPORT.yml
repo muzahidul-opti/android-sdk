@@ -39,36 +39,6 @@ body:
       1. See error...
   validations:
     required: true
-- type: dropdown
-  attributes:
-    label: SDK Type
-    description: Please select the type of JS SDK.
-    multiple: false
-    options:
-      - Browser
-      - Node
-      - React Native
-      - Edge/Lite
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Node Version
-    description: What version of Node are you using?
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Browsers impacted
-    description: What browsers are impacted?
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Link
-    description: Link to code demonstrating the problem.
-  validations:
-    required: false
 - type: textarea
   attributes:
     label: Logs
